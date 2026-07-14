@@ -1,10 +1,10 @@
 [
   {
     "id": "001",
-    "title": "Physica (Comm: Averroes)",
-    "subtitle": "",
+    "title": "Physica",
+    "subtitle": "(Comm: Averroes)",
     "author": "Averroes",
-    "year": 1472-75,
+    "year": "1472-75",
     "genre": "Commentary",
     "language": "Latin",
     "pages": "238",
