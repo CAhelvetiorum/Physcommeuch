@@ -13,7 +13,7 @@ as `""` if you don't have that information yet.
 ```json
 {
   "id": 4,
-  "author": "Author, First",
+  "author": "Author",
   "title": "Full title",
   "editor": "",
   "place": "City",
@@ -23,11 +23,11 @@ as `""` if you don't have that information yet.
   "language": "Latin",
   "istc": "",
   "ustc": "",
-  "digitalization": "https://example.org/scan",
+  "digitalization": "https://www.e-rara.ch/example",
   "notes": "",
   "confession": "Lutheran",
-  "university": "University of Wittenberg",
-  "typology": "Theological treatise"
+  "university/academy": "University of Wittenberg",
+  "typology": "Commentary"
 }
 ```
 
