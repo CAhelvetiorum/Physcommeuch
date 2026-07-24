@@ -20,6 +20,7 @@ const COLUMNS = [
   { key: "digitalization", label: "Digitalization(s)"                                 },
   { key: "notes",          label: "Notes"                                             },
   { key: "confession",     label: "Confession"                                        },
+  { key: "subconfession", label: "Sub-Confession"                                     },
   { key: "university",     label: "University / Academy / School"                     },
   { key: "typology",       label: "Typology"                                          }
 ];
@@ -30,6 +31,7 @@ const SELECT_FILTERS = [
   { key: "printer",     id: "filter-printer"     },
   { key: "language",    id: "filter-language"    },
   { key: "confession",  id: "filter-confession"  },
+  { key: "subconfession",id: "filter-subconfession"  },
   { key: "university",  id: "filter-university"  },
   { key: "typology",    id: "filter-typology"    },
   { key: "format",      id: "filter-format"      }
