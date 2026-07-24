@@ -14,6 +14,7 @@
     "digitalization": "https://www.e-rara.ch/",
     "notes": "Printed ca. 1472-1475. Includes two Latin versions of the text, one new and one old, with the commentary of Averroes on the latter.",
     "confession": "-",
+    "subconfession": "-",
     "university": "-",
     "typology": "Commentary"
   },
@@ -32,6 +33,7 @@
     "digitalization": "",
     "notes": "",
     "confession": "-",
+    "subconfession": "-",
     "university": "-",
     "typology": "Translation edition"
   },
@@ -50,6 +52,7 @@
     "digitalization": "",
     "notes": "",
     "confession": "-",
+    "subconfession": "-",
     "university": "-",
     "typology": "Quaestiones"
   },
@@ -68,6 +71,7 @@
     "digitalization": "https://books.google.ch/books?id=WTEqVezx-yoC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
     "notes": "",
     "confession": "Catholic",
+    "subconfession": "-",
     "university": "University of Padua",
     "typology": "Commentary"
   },
@@ -86,7 +90,27 @@
     "digitalization": "https://books.google.ch/books?id=WTEqVezx-yoC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
     "notes": "Ramist",
     "confession": "Lutheran",
+    "subconfession": "-",
     "university": "University of Copenhagen",
     "typology": "Theses"
+  },
+  {
+    "id": 5,
+    "author": "Vera Cruz, Alonso de la",
+    "title": "Physica speculatio",
+    "editor": "",
+    "place": "Salamanca",
+    "printer": "Juan María de Terranova",
+    "year": 1562,
+    "format": "2°",
+    "language": "Latin",
+    "istc": "",
+    "ustc": "334178",
+    "digitalization": "http://hdl.handle.net/20.500.11938/69849",
+    "notes": "",
+    "confession": "Catholic",
+    "subconfession": "Aug",
+    "university": "",
+    "typology": "Quaestiones"
   }
 ]
