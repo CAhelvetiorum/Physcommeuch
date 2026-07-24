@@ -26,6 +26,7 @@ as `""` if you don't have that information yet.
   "digitalization": "https://www.e-rara.ch/example",
   "notes": "",
   "confession": "Lutheran",
+  "subconfession": "sec/ben/carm/dom/aug/fran/jes/lay" # for catholics
   "university/academy": "University of Wittenberg",
   "typology": "Commentary"
 }
