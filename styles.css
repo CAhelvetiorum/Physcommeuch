@@ -1,0 +1,239 @@
+/* ============================================================
+   Catalogue of Early Printed Books — stylesheet
+   Sober, black-and-white, academic register. Times New Roman.
+   ============================================================ */
+
+:root {
+  --ink: #111111;
+  --paper: #ffffff;
+  --rule: #111111;
+  --rule-light: #bbbbbb;
+  --muted: #555555;
+  --hover-bg: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Times New Roman", Times, "Liberation Serif", Georgia, serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  border-bottom: 3px double var(--rule);
+  padding: 2.2rem 2rem 1.4rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.site-header .subtitle {
+  margin: 0.5rem 0 0;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* ---------- Main layout ---------- */
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 3rem;
+}
+
+/* ---------- Controls ---------- */
+
+.controls {
+  margin-bottom: 1.5rem;
+}
+
+.search-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1rem;
+}
+
+#search-box {
+  flex: 1 1 320px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.95rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--hover-bg);
+}
+
+.result-count {
+  margin-left: auto;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.filter-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem 1.5rem;
+  padding-top: 1rem;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.filter-field label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+
+.filter-field input,
+.filter-field select {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--rule-light);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* ---------- Table ---------- */
+
+.table-wrapper {
+  overflow-x: auto;
+  border-top: 1px solid var(--rule);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1600px;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: var(--paper);
+  border-bottom: 2px solid var(--rule);
+  text-align: left;
+  padding: 0.6rem 0.7rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+
+thead th:hover {
+  background: var(--hover-bg);
+}
+
+thead th .arrow {
+  display: inline-block;
+  width: 0.9em;
+  color: var(--muted);
+}
+
+tbody td {
+  border-bottom: 1px solid var(--rule-light);
+  padding: 0.55rem 0.7rem;
+  vertical-align: top;
+  font-size: 0.92rem;
+}
+
+tbody tr:hover {
+  background: var(--hover-bg);
+}
+
+tbody td.notes-cell,
+tbody td.title-cell {
+  max-width: 320px;
+}
+
+tbody td a {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+#no-results {
+  text-align: center;
+  padding: 2rem 0;
+  font-style: italic;
+  color: var(--muted);
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 700px) {
+  .site-header h1 {
+    font-size: 1.5rem;
+  }
+  .search-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .result-count {
+    margin-left: 0;
+  }
+}

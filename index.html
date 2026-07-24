@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalogue of Early Printed Books</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Catalogue of Early Printed Books</h1>
+  <p class="subtitle">A searchable database of editions, printers and provenance</p>
+</header>
+
+<main>
+
+  <section class="controls" aria-label="Search and filter controls">
+
+    <div class="search-row">
+      <label for="search-box" class="visually-hidden">Search the catalogue</label>
+      <input type="text" id="search-box" placeholder="Search author, title, printer, place…">
+      <button id="toggle-filters" type="button" aria-expanded="false" aria-controls="filter-panel">
+        Advanced filters ▾
+      </button>
+      <button id="reset-filters" type="button">Reset</button>
+      <span class="result-count" id="result-count"></span>
+    </div>
+
+    <div class="filter-panel" id="filter-panel" hidden>
+
+      <div class="filter-field">
+        <label for="filter-year-min">Year from</label>
+        <input type="number" id="filter-year-min" placeholder="e.g. 1540">
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-year-max">Year to</label>
+        <input type="number" id="filter-year-max" placeholder="e.g. 1560">
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-place">Place</label>
+        <select id="filter-place"><option value="">All</option></select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-printer">Printer</label>
+        <select id="filter-printer"><option value="">All</option></select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-language">Language</label>
+        <select id="filter-language"><option value="">All</option></select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-confession">Confession</label>
+        <select id="filter-confession"><option value="">All</option></select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-university">University/Academy/School</label>
+        <select id="filter-university"><option value="">All</option></select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-typology">Typology</label>
+        <select id="filter-typology"><option value="">All</option></select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-format">Format</label>
+        <select id="filter-format"><option value="">All</option></select>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="table-wrapper" aria-label="Book catalogue">
+    <table id="book-table">
+      <thead>
+        <tr id="table-head-row">
+          <!-- populated by script.js -->
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- populated by script.js -->
+      </tbody>
+    </table>
+    <p id="no-results" hidden>No entries match the current search and filters.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Data compiled from primary and secondary bibliographical sources. Click a column heading to sort.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
