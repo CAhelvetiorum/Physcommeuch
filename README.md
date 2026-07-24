@@ -43,14 +43,6 @@ Notes on filling it in:
   has no trailing comma. Any plain-text JSON editor (or VS Code) works; VS Code will
   flag syntax errors as you type.
 
-## Publishing on GitHub Pages
-1. Create a new GitHub repository and add these four files (`index.html`,
-   `styles.css`, `script.js`, `books.json`) at the root.
-2. Go to the repository's **Settings → Pages**.
-3. Under "Build and deployment", set Source to **Deploy from a branch**, choose
-   the `main` branch and `/ (root)` folder, then save.
-4. GitHub will give you a URL like `https://yourusername.github.io/your-repo/`.
-   The site updates automatically whenever you push changes to `books.json`.
 
 ## How the search and filters work
 - The search box matches against every column at once (author, title, printer,
