@@ -145,5 +145,26 @@
     "subconfession": "Jes",
     "university": "",
     "typology": "Quaestiones"
+  },
+  {
+    "id": 8,
+    "author": "Młodzianowski, Tomasz",
+    "title": "Praelectiones philosophicae in octo libros physicorum ... Insertae sunt et quaestiones magis disputabiles de coelo et mundo",
+    "editor": "",
+    "place": "Leszno",
+    "printer": "Michael Buck",
+    "year": 1671,
+    "format": "2°",
+    "medium": "Printed",
+    "language": "Latin",
+    "istc": "",
+    "ustc": "1771506",
+    "location": "",
+    "digitalization": "",
+    "notes": "",
+    "confession": "Catholic",
+    "subconfession": "Jes",
+    "university": "",
+    "typology": "?"
   }
 ]
