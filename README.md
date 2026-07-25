@@ -4,7 +4,7 @@
 - `index.html` — home page, with links to both databases.
 - `commentaries.html` + `commentaries.json` — the database of commentaries, quaestiones,
   theses, and lecture notes.
-- `editions.html` + `editions.json` — the database of editions and translations.
+- `editions.html` + `editions.json` — the database of editions and Latin translations.
 - `script.js` — shared logic (sorting, search, filtering) used by both database pages.
   Each page tells it which file to load via `<body data-source="....json">`.
 - `styles.css` — shared styling for all three pages (Times New Roman, black-and-white,
@@ -52,7 +52,7 @@ Notes on filling it in:
   `aug`, `fran`, `jes`, `lay`) — use `-` when not applicable, and `?` when unknown.
 - `medium` distinguishes `"Printed"` from `"Manuscript"` entries.
 - `location` is for manuscripts or unique copies (repository and shelfmark), separate
-  from `digitalization`, which is for links to online facsimiles/scans.
+  from `digitalization`, which is for links to online scans.
 - If a book has more than one language, printer variant, etc. that you want to be
   filterable separately, separate the values with a semicolon, e.g. `"Latin; Greek"`.
   The filter dropdowns and search will treat each part on its own.
