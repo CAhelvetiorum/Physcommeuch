@@ -18,6 +18,7 @@ const COLUMNS = [
   { key: "language",       label: "Language"                                          },
   { key: "istc",           label: "ISTC No."                                          },
   { key: "ustc",           label: "USTC No."                                          },
+  { key: "location",       label: "Location"                                          },
   { key: "digitalization", label: "Digitalization(s)"                                 },
   { key: "notes",          label: "Notes"                                             },
   { key: "confession",     label: "Confession"                                        },
