@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "author": "Aristotle",
+    "title": "Physica",
+    "editor": "",
+    "place": "",
+    "printer": "",
+    "year": "",
+    "format": "",
+    "medium": "Printed",
+    "language": "Latin",
+    "istc": "",
+    "ustc": "",
+    "location": "",
+    "digitalization": "",
+    "notes": "EXAMPLE ROW — copy, edit, and give it a new id. Delete once you no longer need it as a template.",
+    "confession": "-",
+    "subconfession": "-",
+    "university": "-",
+    "typology": "Edition"
+  }
+]
