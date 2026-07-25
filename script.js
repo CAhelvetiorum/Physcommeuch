@@ -14,6 +14,7 @@ const COLUMNS = [
   { key: "printer",        label: "Printer"                                           },
   { key: "year",           label: "Year",                              numeric: true  },
   { key: "format",         label: "Format"                                            },
+  { key: "medium",         label: "Medium"                                            },
   { key: "language",       label: "Language"                                          },
   { key: "istc",           label: "ISTC No."                                          },
   { key: "ustc",           label: "USTC No."                                          },
@@ -34,7 +35,8 @@ const SELECT_FILTERS = [
   { key: "subconfession",id: "filter-subconfession"  },
   { key: "university",  id: "filter-university"  },
   { key: "typology",    id: "filter-typology"    },
-  { key: "format",      id: "filter-format"      }
+  { key: "format",      id: "filter-format"      },
+  { key: "medium",      id: "filter-medium"      }
 ];
 
 let allBooks = [];
