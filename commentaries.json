@@ -859,5 +859,26 @@
     "subconfession": "dom",
     "university": "",
     "typology": "Commentary"
+  },
+  {
+    "id": 42,
+    "author": "Major, John",
+    "title": "Octo libri physicorum cum naturali philosophia atque metaphysica",
+    "editor": "",
+    "place": "Paris",
+    "printer": "Jean Petit",
+    "year": "1526",
+    "format": "2°",
+    "medium": "Printed",
+    "language": "Latin",
+    "istc": "",
+    "ustc": "181042",
+    "location": "",
+    "digitalization": "https://www.digitale-sammlungen.de/en/view/bsb10149689?page=1",
+    "notes": "",
+    "confession": "Roman Catholic",
+    "subconfession": "",
+    "university": "",
+    "typology": "Commentary"
   }
 ]
