@@ -72,14 +72,6 @@ Notes on filling it in:
    `<nav>` block with links back to the others.
 3. Add a card for it on `index.html` inside `.database-links`.
 
-## Publishing on GitHub Pages
-1. Push all the files at the root of a GitHub repository (no subfolders needed).
-2. Go to the repository's **Settings → Pages**.
-3. Under "Build and deployment", set Source to **Deploy from a branch**, choose the
-   `main` branch and `/ (root)` folder, then save.
-4. GitHub will give you a URL like `https://yourusername.github.io/your-repo/`, which
-   opens on `index.html` (the home page) by default.
-
 ## How the search and filters work
 - The search box matches against every column at once (author, title, printer, place,
   notes, etc.), within whichever database you're currently viewing.
