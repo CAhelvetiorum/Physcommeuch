@@ -632,27 +632,6 @@
   {
     "id": 31,
     "author": "Accorambonius, Felix",
-    "title": "Interpretatio obscuriorum locorum & sententiarum omnium operum Aristotelis, & præcipuorum dubiorum, quæ in singulis eius libris moueri solent, ex eius verbis, vel validis rationibus declaratio",
-    "editor": "",
-    "place": "Rome",
-    "printer": "Paolo Parisi",
-    "year": "1603",
-    "format": "",
-    "medium": "Printed",
-    "language": "Latin",
-    "istc": "",
-    "ustc": "4037968",
-    "location": "",
-    "digitalization": "",
-    "notes": "",
-    "confession": "Roman Catholic",
-    "subconfession": "-",
-    "university": "",
-    "typology": "Tractatus"
-  },
-  {
-    "id": 32,
-    "author": "Accorambonius, Felix",
     "title": "Vera mens Aristotelis id est lucidissima, et eruditissima in omnia Aristotelis opera, explanatio",
     "editor": "",
     "place": "Rome",
@@ -672,7 +651,7 @@
     "typology": "Tractatus"
   },
   {
-    "id": 33,
+    "id": 32,
     "author": "Achillinus, Alexander",
     "title": "Nonnulla circa prooemium Aristotelis et Averrois in librum Physicorum",
     "editor": "",
@@ -693,7 +672,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 34,
+    "id": 33,
     "author": "Achillinus, Alexander",
     "title": "Expositio dictorum Averrois in librum Physicorum",
     "editor": "",
@@ -714,7 +693,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 35,
+    "id": 34,
     "author": "Achillinus, Alexander",
     "title": "Expositio in primum Physicorum et initium secundi",
     "editor": "",
@@ -735,7 +714,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 36,
+    "id": 35,
     "author": "Achillinus, Alexander",
     "title": "Expositio in primum Physicorum et initium secundi",
     "editor": "",
@@ -756,7 +735,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 37,
+    "id": 36,
     "author": "Achillinus, Alexander",
     "title": "Opera omnia in unum collecta. De intelligentiis. De orbibus. De universalibus. De physico auditu. De elementis. De subiecto physionomiae et chiromantiae. De subiecto medicinae. De prima potestate syllogismi. De distinctionibus. De proportione motuum. Cum annotationibus excellentissimi doctoris Pamphili Montii Bononiens scholae Patavinae publici professoris.",
     "editor": "Monti, Panfilo",
@@ -777,7 +756,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 38,
+    "id": 37,
     "author": "Achillinus, Alexander",
     "title": "Opera omnia in unum collecta Cum annotationibus excellentissimi doctoris Pamphili Montii Bononiensis scholae Patavinae publici professoris.",
     "editor": "Monti, Panfilo",
@@ -798,7 +777,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 39,
+    "id": 38,
     "author": "Achillinus, Alexander",
     "title": "Opera omnia in unum collecta cum annotationibus Pamphili Montii",
     "editor": "Monti, Panfilo",
@@ -819,7 +798,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 40,
+    "id": 39,
     "author": "Zanardi, Michele",
     "title": "Commentaria cum quaestionibus, et dubiis; in octo libros de physico auditu Aristotelis",
     "editor": "",
@@ -840,7 +819,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 41,
+    "id": 40,
     "author": "Zanardi, Michele",
     "title": "Commentaria Cum quaestionibus Et Dubiis: In Octo Libros de Physico auditu Aristotelis",
     "editor": "",
@@ -861,7 +840,7 @@
     "typology": "Commentary"
   },
   {
-    "id": 42,
+    "id": 41,
     "author": "Major, John",
     "title": "Octo libri physicorum cum naturali philosophia atque metaphysica",
     "editor": "",
