@@ -121,7 +121,7 @@
     "digitalization": "http://hdl.handle.net/20.500.11938/69849",
     "notes": "",
     "confession": "Catholic",
-    "subconfession": "Aug",
+    "subconfession": "aug",
     "university": "",
     "typology": "Quaestiones"
   },
@@ -142,7 +142,7 @@
     "digitalization": "https://collections.library.yale.edu/catalog/10622029",
     "notes": "His In astrologos coniectores libri quinque (1615) indicates he taught in the Jesuit College in Rome.",
     "confession": "Catholic",
-    "subconfession": "Jes",
+    "subconfession": "jes",
     "university": "",
     "typology": "Quaestiones"
   },
@@ -1087,8 +1087,8 @@
     "digitalization": "",
     "notes": "Cranz",
     "confession": "Roman Catholic",
-    "subconfession": "University of Paris",
-    "university": "",
+    "subconfession": "",
+    "university": "University of Paris",
     "typology": "Tractatus"
   },
   {
